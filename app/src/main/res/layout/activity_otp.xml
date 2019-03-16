@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otp">
+
+   <!-- <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"/>-->
+
+    <TextView
+        android:background="#349c8d"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Enter 10 digit Mobile No."
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/textView2Phone"/>
+
+    <EditText
+        android:background="@drawable/edittext_bck"
+        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_marginTop="41dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:id="@+id/Phonenoedittext"
+        android:hint="+91"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_below="@+id/textView2Phone"/>
+
+    <Button
+        android:background="@drawable/layout_back"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Send OTP"
+        android:id="@+id/PhoneVerify"
+        android:layout_below="@+id/Phonenoedittext"
+        android:layout_alignEnd="@+id/Phonenoedittext"
+        android:layout_alignRight="@+id/Phonenoedittext"
+        android:layout_alignStart="@+id/Phonenoedittext"
+        android:layout_alignLeft="@+id/Phonenoedittext"/>
+
+    <ImageView android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/imageView2Phone"
+        app:srcCompat="@drawable/ic_phone_iphone_black_24dp"
+        android:layout_toStartOf="@+id/Phonenoedittext"
+        android:layout_toLeftOf="@+id/Phonenoedittext"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_alignTop="@+id/Phonenoedittext"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:background="#349c8d"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Provide OTP in below text area to verify"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/textViewVerified"
+        android:visibility="gone"/>
+
+    <EditText
+        android:background="@drawable/edittext_bck"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:id="@+id/OTPeditText"
+        android:hint="OTP Here ..."
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_below="@+id/textViewVerified"
+        android:visibility="gone"/>
+
+    <Button
+        android:background="@drawable/layout_back"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Verify"
+        android:id="@+id/OTPVERIFY"
+        android:layout_below="@+id/OTPeditText"
+        android:layout_alignEnd="@+id/OTPeditText"
+        android:layout_alignRight="@+id/OTPeditText"
+        android:layout_alignStart="@+id/OTPeditText"
+        android:layout_alignLeft="@+id/OTPeditText"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
+</FrameLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141765312656",
+    "firebase_url": "https://firstdatabase-b1478.firebaseio.com",
+    "project_id": "firstdatabase-b1478",
+    "storage_bucket": "firstdatabase-b1478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141765312656:android:867e9524f8a84988",
+        "android_client_info": {
+          "package_name": "com.example.sarthak.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141765312656-o8kb6sis15egi994dvuk86ssbdnsl5q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarthak.database",
+            "certificate_hash": "70373957348358a8d298dd1a0e63a53be0e5f6de"
+          }
+        },
+        {
+          "client_id": "141765312656-bb1tff8al5u481ofq4av21muapu7otun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiolrasbvB_SdvFO98cmZav2XcePTQa5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141765312656-bb1tff8al5u481ofq4av21muapu7otun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
